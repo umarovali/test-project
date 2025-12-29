@@ -26,3 +26,24 @@ button {
   border: none;
   cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  body {
+    margin-bottom: 0;
+  }
+
+  .container {
+    padding: 0px 30px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    margin-bottom: 0;
+  }
+
+  .container {
+    padding: 0px 40px;
+  }
+}

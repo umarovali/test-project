@@ -14,7 +14,7 @@ export default function ServiceItem({ service, onAdd }: ServiceItemProps) {
         <p className="service_price">{service.price}$</p>
       </div>
       <button className="service_add" onClick={onAdd}>
-        <span>Добавить</span> <MdOutlineBookmarkAdd />
+        <MdOutlineBookmarkAdd />
       </button>
     </li>
   );

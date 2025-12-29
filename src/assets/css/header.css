@@ -3,6 +3,8 @@ header {
   height: 70px;
   display: flex;
   align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
 }
 
 .header_wrapper {
@@ -17,7 +19,8 @@ header {
 }
 
 .header_title {
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: .3px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
 }
+
