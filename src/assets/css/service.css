@@ -3,13 +3,6 @@
   display: flex;
   flex-direction: column;
   gap: 14px;
-  max-height: 420px;
-  overflow-y: auto;
-  padding: 0 4px;
-}
-
-.service_list::-webkit-scrollbar {
-  display: none;
 }
 
 .service_item {
